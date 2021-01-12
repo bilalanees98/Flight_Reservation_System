@@ -1,0 +1,35 @@
+footer{
+	background: #152F4F;
+	font-family: Verdana, sans-serif;
+	font-weight: 200;
+	color: white;	
+}
+.footer-fsection{
+	display: flex;
+	
+}
+.Brand-name{
+	margin: 5%;
+	margin-right: 3%;
+	
+	font-size: 15px;
+	
+
+}
+.Links{
+	margin: 5%;
+	margin-left: 2%;
+	margin-right: 3%;
+	
+	width: 20%;
+}
+.Location{
+	margin: 5%;
+	margin-left: 3%;
+	
+}
+
+.copyright {	
+	text-align: end;
+	padding-bottom: 5px;
+}

@@ -1,0 +1,193 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  
+}
+
+body{
+  background: rgb(247, 247, 247);
+}
+
+.wrapper_ep{
+  position: absolute;
+  top: 55%;
+  left: 43%;
+  transform: translate(-50%,-50%);
+  width: 700px;
+  height: 450px;
+
+}
+
+.checkout_wrapper{
+  width: 900px;
+  height: 450px;
+  display: flex;
+}
+
+.checkout_wrapper .product_info{
+  width: 45%;
+  background: rgb(65, 101, 219);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.checkout_wrapper .product_info img{
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.price_section{
+  background: rgb(238, 238, 238);
+  width: 700px;
+  height: 450px;
+  display: flex;
+  border-right:2px solid  #8d8c8c;
+}
+.tickets_price{
+  margin-left: 10%;
+  position: relative;
+  top: 100px;
+  line-height: 30px;
+}
+
+.p_section{
+  width: 100%;
+}
+.p_section .timing{
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 30px;
+  position: relative;
+  top: 50px;
+}
+.p_section .ticket_count{
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  top:140px;
+}
+.ticket_count .child_ticket{
+  display: flex;
+  margin: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.child_ticket .child_count{
+  margin-left: 40px;
+  display: flex;
+}
+.child_count button{
+  width: 20px;
+  margin-right: 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.ticket_count .adult_ticket{
+  display: flex;
+  margin: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.adult_ticket .adult_count{
+  margin-left: 40px;
+  display: flex;
+}
+
+.adult_count button{
+  width: 20px;
+  margin-right: 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.ticket_count p{
+  border: 2px solid rgb(214, 210, 210);
+}
+
+
+
+.checkout_wrapper .checkout_form{
+  width: 55%;
+  background: rgb(238, 238, 238);
+  padding: 50px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.checkout_wrapper .product_info .content{
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checkout_wrapper .product_info .content h3{
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 3px;
+}
+
+.checkout_wrapper .product_info .content p{
+  margin-top: 10px;
+  font-size:14px;
+}
+
+
+.checkout_form p{
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+
+.checkout_form .details .section{
+  margin-bottom: 5px;
+}
+
+.checkout_form .details .section input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #dddddd;
+}
+
+.checkout_form .details .section input[type="text"]:focus{
+  border: 2px solid #59cc17;
+}
+
+.checkout_form .details .section.last_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout_form .details .section.last_section .item{
+  width: 48%;
+}
+
+.checkout_form .details .btn_ep{
+  background: #85cf24;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.checkout_form .details .btn_ep a{
+  color: #fff;
+  letter-spacing: 5px;
+  display: block;
+  text-align: center;
+  cursor: wait;
+}
+.company img{
+  position: relative;
+  width: 50px;
+  left: 180px;
+  bottom: 20px;
+}
