@@ -1,4 +1,8 @@
 # Flight_Reservation_System
+Software Engineering course
+
+5th Semester Project for FAST-NU Islamabad, Pakistan
+
 Our flight reservation system takes in input from the user wrt where they want to go and when. After this info is used to scrape https://www.skyscanner.net/. Information regarding flights is scraped and is then shown to the user. The user can then book these flights. 
 
 # Implementation
